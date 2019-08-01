@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyendoitien</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From currencey</th>
+        <th>To currency</th>
+    </tr>
+    <tr>
+    <td><input type="number" id="amount"></td>
+        <td><select id="fromcurrency">
+        <option value="23000">vnd</option>
+        <option value="1">usd</option>
+        </select></td>
+        <td><select id="tocurrency">
+            <option value="23000">vnd</option>
+            <option value="1">usd</option>
+        </select>
+        </td>
+        <td><input type="submit" value="Convert" onclick="result()"></td>
+    </tr>
+</table>
+<p>ket qua la:</p>
+<p id="ketqua"></p>
+<script src="currencyConvert.js">
+</script>
+</body>
+</html>
